@@ -1,0 +1,27 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const name = "Jared"
+const randomNumber = Math.random()*4;
+---
+<BaseLayout>
+<h1>Esta es la ruta de nosotros</h1>
+<h2>{name}</h2>
+<h2>{randomNumber}</h2>
+</BaseLayout>
+
+<style>
+    h1{
+        color:blue
+    }
+</style>
+
+
+
+
+<!-- 
+<script>
+    const name = "Jared";
+    let fill = document.getElementById("name")
+
+</script>
+-->
